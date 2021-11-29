@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下拉列表</title>
+</head>
+<body>
+    <form action="index.jsp">
+        籍贯：
+        <!-- select 标签也是表单元素 -->
+        <!-- select 的 name 属性作为发送给后台的数据键值对的 键 -->
+        <select name="list">
+            <!-- option 的 value 属性作为发送给后台的数据键值对的 值 -->
+            <option value="bj">北京</option>
+            <!-- 设置了 selected="selected" 表示当前选项为 默认显示项-->
+            <option value="sh" selected="selected">上海</option>
+            <option value="gz">广州</option>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
